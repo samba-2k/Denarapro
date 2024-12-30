@@ -1,0 +1,105 @@
+<!-- Rest of your HTML code remains unchanged -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="style.css" rel="stylesheet"/>
+  <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3299235190408040">
+  </script>
+  <script>
+   window.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+  </script>
+  <title>
+   Denara Login
+  </title>
+ </head>
+ <body>
+  <div class="login-container">
+   <div class="heading">
+    <img alt="" src="logo2.png " srcset="" style="width: 100%; max-width: 150px; "/>
+   </div>
+   <div class="heading">
+    <small>
+     Welcome to Denara Digit Pro Scanner
+    </small>
+   </div>
+   <div class="error-message">
+   </div>
+   <div class="form-container">
+    <form action="index.php" method="POST">
+     <div class="form-group">
+      <label>
+       User Name
+      </label>
+      <input id="email" name="username" placeholder="Enter your user name" required=""/>
+     </div>
+     <div class="form-group">
+      <label for="password">
+       Password
+      </label>
+      <input id="password" name="password" placeholder="Enter your password" required="" type="password"/>
+      <img class="reveal-icon"/>
+     </div>
+     <button class="submit-button" type="submit">
+      Sign In
+     </button>
+    </form>
+   </div>
+   <div class="low">
+    <div class="Signup_heading">
+     <small>
+      Don't Have an account on Denara?
+     </small>
+    </div>
+    <div class="Signup_heading">
+     <button class="submit" onclick="openWhatsApp()">
+      Get logins
+     </button>
+     <small>
+      @$25 WhatsApp +254103361419
+     </small>
+    </div>
+    <div class="Signup_heading">
+     <label>
+      <input id="termsCheckbox" type="checkbox"/>
+      <small>
+       By registering for an account,
+       <br/>
+       you agree to our
+       <a href="terms.html" target="_blank">
+        Terms of Use.
+       </a>
+      </small>
+     </label>
+    </div>
+    <div class="Signup_heading">
+     <small>
+      <a href="https://track.deriv.com/_kDDak-KPEw8KqFKZ7JdnQ2Nd7ZgqdRLk/1/?payload=Denara&amp;rurl=https%3A%2F%2Fwww.denaradigitpro.com" target="_blank">
+       <b>
+        Sign up Deriv
+       </b>
+      </a>
+     </small>
+    </div>
+   </div>
+  </div>
+  <script>
+   function openWhatsApp() {
+            
+            var phoneNumber = '2547103361419';
+            
+            
+            var message = "Hello, I'd like to purchase Denara logins.";
+            
+        
+            var whatsappUrl = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
+            
+            // Open WhatsApp in a new tab or window.
+            window.open(whatsappUrl);
+        }
+  </script>
+ </body>
+</html>
